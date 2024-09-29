@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; text-decoration: underline;">APPLICATION FORM</h1><hr>
+    </header>
+
+    <main>
+        <form action="/server">
+
+            <label for="fname">
+                First Name:
+                <input type="text" placeholder="Enter first name" id="fname" name="first name">
+            </label>
+
+            <br>
+
+            <label for="lname">
+                Last Name:
+                <input type="text" placeholder="Enter last name" id="lname" name="last name">
+            </label>
+
+            <br>
+
+            <label for="age">
+                Enter your age:
+                <input type="number" id="age" name="age">
+            </label>
+            <hr>
+
+            <h2>Select Your Gender</h2>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <hr>
+
+            <h2>Select Your Position</h2>
+            <label for="position">
+                <input type="radio" id="position" name="position" value="junior dev">Junior Developer
+                <input type="radio" id="position" name="position" value="mid dev">Mid Level Developer
+                <input type="radio" id="position" name="position" value="senior dev">Senior Developer
+            </label>
+            <hr>
+            
+            <h2>Programming Language</h2>
+            <label for="language">
+                <input type="checkbox" id="language" name="language" value="java">Java
+                <input type="checkbox" id="language" name="language" value="c++">C++
+                <input type="checkbox" id="language" name="language" value="javascript">Javascript
+            </label>
+            <hr>
+
+            <button type="submit" style="background-color: blue; color: white;">Submit</button> &nbsp; <button type="reset" style="background-color: blue; color: white;">Reset</button>
+            <hr>
+        </form>
+    </main>
+</body>
+</html>
